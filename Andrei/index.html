@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D to do List</title>
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>to do List</h1>
-    <input type="text">
+<nav>
+    <h1>D D LIST APP</h1>
+</nav>
+
+
+
+    <div class = " container">
+        <div class=" head">
+            <h1>Todo List</h1>
+            <input type="text" id="taskInput" placeholder="Enter a task...">
+            <button id="addTaskButton">Add Task</button>
+        </div>
+
+        <div class = "list-box">
+            <h1>Your task</h1>
+            <ol id="taskList"></ol> 
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>

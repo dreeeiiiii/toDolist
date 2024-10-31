@@ -1,0 +1,41 @@
+nav{
+    background-color: rgb(137, 200, 200);
+}
+nav h1 {
+    margin: 0;
+    padding: 20px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(216, 234, 234);
+}
+.head{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(124, 200, 200);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+#taskInput{
+    font-size: 20px;
+    
+
+}
+.list-box{
+    background-color: rgb(192, 222, 222);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
